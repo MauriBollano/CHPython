@@ -1,8 +1,3 @@
-""" Esto era en colab
-from google.colab import drive
-drive.mount('/drive/')
-
-ruta= '/drive/MyDrive/Primer pre-entrega+Bollano """
 import json
 """ Funciones """
 def registro(database):
