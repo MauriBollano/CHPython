@@ -1,5 +1,12 @@
-from paquete1.entrega2 import Cliente
-from paquete1.entrega1 import *
+""" from entrega2 import Cliente """
+from entrega1 import Inicio
+
+def main():
+    us = Inicio()
+    us.menu()
+
+if __name__ == '__main__':
+    main()
 
 
 """ cliente1 = Cliente("mauricio", 45678, "mb@gmail.com", 1000, ["moda","computacion"]) """
@@ -15,6 +22,6 @@ from paquete1.entrega1 import *
 
 """ cliente1.comprar("computadora","800") """
 
-registro("database")
+""" registro("database") """
 
 """ leerdb(database) """
