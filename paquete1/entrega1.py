@@ -1,10 +1,16 @@
 import json
 """ Funciones """
+database={}
+
+""" with open(database.json,"w") as archive:
+        json.dump(database, archive) """
+
 def registro(database):
     user = input("Ingrese un usuario:  ")
     password = input("Ingrese una contraseña:  ")
-
-    database.update({str(user):str(password)})
+    newuser = json.loads({"user": user, "password": password})
+    with open(database.json,"w") as newuser:
+        json.dumps(database, newuser)
 
 def leerdb(database):
     print("La database contiene :")

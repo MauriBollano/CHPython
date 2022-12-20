@@ -16,3 +16,5 @@ from paquete1.entrega1 import *
 """ cliente1.comprar("computadora","800") """
 
 registro("database")
+
+""" leerdb(database) """
