@@ -1,5 +1,5 @@
-from entrega2 import Cliente
-from entrega1 import Inicio
+from paquete.entrega2 import Cliente
+from paquete.entrega1 import Inicio
 
 """ 
 Esto es para entrega 1: Modifique el codigo para realizar el registro, login y lectura de la base de datos con diccionarios y objetos pero aun no anda

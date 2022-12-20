@@ -1,0 +1,10 @@
+setup.py
+paquete/__init__.py
+paquete/entrega1.py
+paquete/entrega2.py
+paquete/main.py
+paquete/usuarios.py
+paquete_entrega2.egg-info/PKG-INFO
+paquete_entrega2.egg-info/SOURCES.txt
+paquete_entrega2.egg-info/dependency_links.txt
+paquete_entrega2.egg-info/top_level.txt
