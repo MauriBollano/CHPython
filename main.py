@@ -1,11 +1,11 @@
 from paquete1.entrega2 import Cliente
-from paquete1.entrega2 import *
+from paquete1.entrega1 import *
 
 
-cliente1 = Cliente("mauricio", 45678, "mb@gmail.com", 1000, ["moda","computacion"])
+""" cliente1 = Cliente("mauricio", 45678, "mb@gmail.com", 1000, ["moda","computacion"]) """
 
 
-print(cliente1) 
+""" print(cliente1)  """
 
 """ print("el saldo es: ",cliente1.saldo) """
 
@@ -13,4 +13,6 @@ print(cliente1)
 
 """ print("el saldo es: ",cliente1.saldo) """
 
-cliente1.comprar("computadora","800")
+""" cliente1.comprar("computadora","800") """
+
+registro("database")

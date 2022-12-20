@@ -4,7 +4,7 @@ def registro(database):
     user = input("Ingrese un usuario:  ")
     password = input("Ingrese una contraseña:  ")
 
-    database.update({user:password})
+    database.update({str(user):str(password)})
 
 def leerdb(database):
     print("La database contiene :")
